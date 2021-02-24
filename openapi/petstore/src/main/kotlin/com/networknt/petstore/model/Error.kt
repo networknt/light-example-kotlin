@@ -1,8 +1,8 @@
 package com.networknt.petstore.model;
 data class Error (
-        val message: String,
+        val code: Integer,
         
         
-        val code: Int
+        val message: String
 )
 

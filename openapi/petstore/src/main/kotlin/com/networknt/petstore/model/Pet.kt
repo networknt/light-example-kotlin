@@ -1,8 +1,8 @@
 package com.networknt.petstore.model;
 data class Pet (
-        val name: String,
+        val id: java.lang.Long,
         
-        val id: Long,
+        val name: String,
         
         
         val tag: String

@@ -8,6 +8,7 @@ class PetsPostHandler : LightHttpHandler {
     
     @Throws(Exception::class)
     override fun handleRequest(exchange: HttpServerExchange) {
-        exchange.endExchange()
+        exchange.responseHeaders.add(HttpString("Content-Type"), "application/json")
+        exchange.responseSender.send("{}")
     }
 }

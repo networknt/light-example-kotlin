@@ -17,7 +17,7 @@ class PetsPetIdGetHandlerTest {
     fun `test PetsPetIdGetHandlerTest() PetsPetIdGetHandler success` () {
         /*
         
-        val response = LightTestServer.makeGetRequest("/v1/pets/vFTeBIZwy")
+        val response = LightTestServer.makeGetRequest("/v1/pets/vlAcWAEvKRjSWEdXiqFQdbOT")
         
         assertThat(response).all {
             rcIsEqualTo(200)

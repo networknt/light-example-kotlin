@@ -17,7 +17,7 @@ class PetsPetIdDeleteHandlerTest {
     fun `test PetsPetIdDeleteHandlerTest() PetsPetIdDeleteHandler success` () {
         /*
         
-        val response = LightTestServer.makeGetRequest("/v1/pets/CTqVZ")
+        val response = LightTestServer.makeGetRequest("/v1/pets/qVDpsqsPflufXVrGH")
         
         assertThat(response).all {
             rcIsEqualTo(200)

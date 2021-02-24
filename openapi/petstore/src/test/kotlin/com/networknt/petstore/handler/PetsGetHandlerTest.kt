@@ -17,7 +17,7 @@ class PetsGetHandlerTest {
     fun `test PetsGetHandlerTest() PetsGetHandler success` () {
         /*
         
-        val response = LightTestServer.makeGetRequest("/v1/pets?limit=73")
+        val response = LightTestServer.makeGetRequest("/v1/pets?limit=95")
         
         assertThat(response).all {
             rcIsEqualTo(200)

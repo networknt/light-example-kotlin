@@ -1,7 +1,7 @@
 
 plugins {
     application
-    kotlin("jvm") version "1.3.21"
+    kotlin("jvm") version "1.3.50"
     // https://github.com/ben-manes/gradle-versions-plugin
     id("com.github.ben-manes.versions") version "0.20.0"
     // https://github.com/johnrengelman/shadow
